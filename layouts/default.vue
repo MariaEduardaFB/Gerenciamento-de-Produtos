@@ -99,14 +99,35 @@ export default {
       items: [
         {
           icon: 'mdi-apps',
-          title: 'Welcome',
-          to: '/'
+          title: 'Home',
+          to: '/home'
+        },
+        {
+          icon: 'mdi-plus',
+          title: 'Cadastro de produtos',
+          to: '/addProduct'
+        },
+        {
+          icon: 'mdi-eye',
+          title: 'Visualizar produtos',
+          to: '/viewProduct'
+        },
+        {
+          icon: '	mdi-pencil',
+          title: 'Editar produtos',
+          to: '/editProduct'
+        },
+        {
+          icon: 'mdi-delete',
+          title: 'Deletar produtos',
+          to: '/deleteProduct'
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
+          title: 'Configurações',
+          to: '/settings'
         }
+        
       ],
       miniVariant: false,
       right: true,
